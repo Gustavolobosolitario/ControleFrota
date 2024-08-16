@@ -20,7 +20,7 @@ import streamlit as st
 st.set_option('client.showErrorDetails', False)
 
 # Seu código principal
-
+SECRET_KEY = os.getenv("SECRET_KEY")
 
 
 
