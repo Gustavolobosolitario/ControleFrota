@@ -14,6 +14,14 @@ import random
 import string
 import warnings
 
+import streamlit as st
+
+# Configuração dos parâmetros do Streamlit
+st.set_option('client.showErrorDetails', False)
+
+# Seu código principal
+
+
 
 
 # Suprime especificamente a mensagem de aviso do Streamlit
