@@ -14,7 +14,8 @@ import random
 import string
 import warnings
 
-
+# Configuração dos parâmetros do Streamlit
+st.set_option('client.showErrorDetails', False)
 
 # Suprime especificamente a mensagem de aviso do Streamlit
 warnings.filterwarnings("ignore", message="Please replace st.experimental_get_query_params with st.query_params.")
