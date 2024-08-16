@@ -14,14 +14,6 @@ import random
 import string
 import warnings
 
-import streamlit as st
-
-# Configuração dos parâmetros do Streamlit
-st.set_option('client.showErrorDetails', False)
-
-# Seu código principal
-SECRET_KEY = os.getenv("SECRET_KEY")
-
 
 
 # Suprime especificamente a mensagem de aviso do Streamlit
