@@ -1,6 +1,5 @@
 
 altair>=4.0,<6
->>>>>>> 54cb8ec (Primeiro commit ou atualização)
 app==0.0.1
 attrs==23.2.0
 blinker==1.8.2
